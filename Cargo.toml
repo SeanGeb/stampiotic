@@ -1,7 +1,16 @@
 [package]
 name = "stampiotic"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
+
+license = "MIT"
+description = "A flyweight tool for checking stampfile freshness"
+homepage = "https://github.com/SeanGeb/stampiotic"
+repository = "https://github.com/SeanGeb/stampiotic"
+readme = "README.md"
+keywords = ["stampfile"]
+categories = ["command-line-utilities", "date-and-time", "filesystem"]
+exclude = [".gitignore"]
 
 [profile.release]
 codegen-units = 1
