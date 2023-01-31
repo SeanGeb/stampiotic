@@ -1,0 +1,14 @@
+[package]
+name = "stampiotic"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "z"
+panic = "abort"
+strip = true
+
+[dependencies]
+humantime = "2.1.0"
